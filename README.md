@@ -2,6 +2,17 @@
 
 Design Page Objects and run Tests
 
+## Application Under Test
+```bash
+http://automationpractice.com/index.php
+```
+
+## OS and IDE
+```bash
+OS : macOS
+IDE: Visual Studio Code
+```
+
 ## Run application
 
 Clone the repository
