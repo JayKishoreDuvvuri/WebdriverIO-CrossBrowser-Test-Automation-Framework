@@ -18,7 +18,7 @@ IDE: Visual Studio Code
 Clone the repository
 
 ```bash
-git clone https://github.com/JayKishoreDuvvuri/WebdriverIO-V5-PageObjects-CrossBrowser-Automation
+git clone https://github.com/JayKishoreDuvvuri/WebdriverIO-CrossBrowser-Test-Automation-Framework
 ```
 
 Install dependencies
