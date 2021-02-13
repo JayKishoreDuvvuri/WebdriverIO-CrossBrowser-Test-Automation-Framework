@@ -1,0 +1,164 @@
+{
+  "uid" : "346981ddf4b3eadb",
+  "name" : "Navigate to Landing Page",
+  "fullName" : "Toggle between the colours of the Product.Navigate to Landing Page",
+  "historyId" : "f1324354c029511b9d347d096f96583",
+  "time" : {
+    "start" : 1613224467324,
+    "stop" : 1613224467369,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224467325,
+        "stop" : 1613224467335,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ae563b713ebe434a",
+        "name" : "Request",
+        "source" : "ae563b713ebe434a.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "ac78d35f4e9519d5",
+        "name" : "Response",
+        "source" : "ac78d35f4e9519d5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224467337,
+        "stop" : 1613224467346,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e5cb6c69d244ce68",
+        "name" : "Request",
+        "source" : "e5cb6c69d244ce68.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "aefac79082c54ec3",
+        "name" : "Response",
+        "source" : "aefac79082c54ec3.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/87311189-b3af-8448-9ad8-be0eddc21bb8/enabled",
+      "time" : {
+        "start" : 1613224467349,
+        "stop" : 1613224467356,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bcf17648a5efddb2",
+        "name" : "Response",
+        "source" : "bcf17648a5efddb2.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224467357,
+        "stop" : 1613224467369,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41bb891f153251e5",
+        "name" : "Request",
+        "source" : "41bb891f153251e5.json",
+        "type" : "application/json",
+        "size" : 209
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-3"
+  }, {
+    "name" : "suite",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "346981ddf4b3eadb.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

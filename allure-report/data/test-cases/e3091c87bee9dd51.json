@@ -1,0 +1,212 @@
+{
+  "uid" : "e3091c87bee9dd51",
+  "name" : "Check the product name: Printed Chiffon Dress is visible",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the product name: Printed Chiffon Dress is visible",
+  "historyId" : "d3ae6778b51e48a01baf11fcf54e5c57",
+  "time" : {
+    "start" : 1613224460675,
+    "stop" : 1613224460744,
+    "duration" : 69
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224460676,
+        "stop" : 1613224460686,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a7f449330d610356",
+        "name" : "Request",
+        "source" : "a7f449330d610356.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "a43039ec008f9dfd",
+        "name" : "Response",
+        "source" : "a43039ec008f9dfd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224460687,
+        "stop" : 1613224460698,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4890008cdaccd56",
+        "name" : "Request",
+        "source" : "f4890008cdaccd56.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "c7f8fd76d2933a2b",
+        "name" : "Response",
+        "source" : "c7f8fd76d2933a2b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d4ed0c56-7b4d-4345-80c4-70eb8e5acc34/displayed",
+      "time" : {
+        "start" : 1613224460700,
+        "stop" : 1613224460712,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a575c9c9c35424c0",
+        "name" : "Response",
+        "source" : "a575c9c9c35424c0.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224460712,
+        "stop" : 1613224460722,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1fcf59be5faf186",
+        "name" : "Request",
+        "source" : "e1fcf59be5faf186.json",
+        "type" : "application/json",
+        "size" : 87
+      }, {
+        "uid" : "b50253a54b68d3a",
+        "name" : "Response",
+        "source" : "b50253a54b68d3a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d4ed0c56-7b4d-4345-80c4-70eb8e5acc34/displayed",
+      "time" : {
+        "start" : 1613224460725,
+        "stop" : 1613224460735,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "960829205a5b7f09",
+        "name" : "Response",
+        "source" : "960829205a5b7f09.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d4ed0c56-7b4d-4345-80c4-70eb8e5acc34/displayed",
+      "time" : {
+        "start" : 1613224460735,
+        "stop" : 1613224460744,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39a660221851cb6d",
+        "name" : "Response",
+        "source" : "39a660221851cb6d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the product name: Printed Chiffon Dress is visible"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3091c87bee9dd51.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

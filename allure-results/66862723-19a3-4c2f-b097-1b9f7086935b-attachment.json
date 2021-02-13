@@ -1,0 +1,9 @@
+{
+  "script": "arguments[0].click();",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "2e917cc3-0c02-ac48-9f5f-337e372c1473",
+      "ELEMENT": "2e917cc3-0c02-ac48-9f5f-337e372c1473"
+    }
+  ]
+}

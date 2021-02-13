@@ -1,0 +1,212 @@
+{
+  "uid" : "d6cf07e3acc64c3a",
+  "name" : "Check the product name: Printed Summer Dress is visible",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the product name: Printed Summer Dress is visible",
+  "historyId" : "9ed41eef5ce34a9bd614bc2ed6f796a8",
+  "time" : {
+    "start" : 1613224460504,
+    "stop" : 1613224460608,
+    "duration" : 104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224460505,
+        "stop" : 1613224460525,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32c7e7de44c0208c",
+        "name" : "Request",
+        "source" : "32c7e7de44c0208c.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "6f8e87a1f7a95825",
+        "name" : "Response",
+        "source" : "6f8e87a1f7a95825.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224460530,
+        "stop" : 1613224460545,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "285883628f5e2e9c",
+        "name" : "Request",
+        "source" : "285883628f5e2e9c.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "f98864f206c06d02",
+        "name" : "Response",
+        "source" : "f98864f206c06d02.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/37d2ca4a-3070-c141-bc8d-1ba633af9386/displayed",
+      "time" : {
+        "start" : 1613224460547,
+        "stop" : 1613224460559,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "281b30dc1a3df7ef",
+        "name" : "Response",
+        "source" : "281b30dc1a3df7ef.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224460559,
+        "stop" : 1613224460586,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90be507f66dd9ddd",
+        "name" : "Request",
+        "source" : "90be507f66dd9ddd.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "de975a9fc1e2783e",
+        "name" : "Response",
+        "source" : "de975a9fc1e2783e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/37d2ca4a-3070-c141-bc8d-1ba633af9386/displayed",
+      "time" : {
+        "start" : 1613224460588,
+        "stop" : 1613224460597,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6457bafef3f7c6d",
+        "name" : "Response",
+        "source" : "6457bafef3f7c6d.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/37d2ca4a-3070-c141-bc8d-1ba633af9386/displayed",
+      "time" : {
+        "start" : 1613224460597,
+        "stop" : 1613224460608,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f458487524309a7f",
+        "name" : "Response",
+        "source" : "f458487524309a7f.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the product name: Printed Summer Dress is visible"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6cf07e3acc64c3a.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

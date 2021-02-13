@@ -1,0 +1,164 @@
+{
+  "uid" : "3aaf3454e8f6d3f",
+  "name" : "Navigate to Landing Page",
+  "fullName" : "Toggle between the colours of the Product.Navigate to Landing Page",
+  "historyId" : "7b8eb1eff067383ab808e50c2a4a6d40",
+  "time" : {
+    "start" : 1613224470329,
+    "stop" : 1613224470374,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224470330,
+        "stop" : 1613224470340,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c3b3ce12cb3b2449",
+        "name" : "Request",
+        "source" : "c3b3ce12cb3b2449.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "c67887716cd7cbea",
+        "name" : "Response",
+        "source" : "c67887716cd7cbea.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224470342,
+        "stop" : 1613224470355,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f81c6284327f5db9",
+        "name" : "Request",
+        "source" : "f81c6284327f5db9.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "50f0a3dcd2f896d7",
+        "name" : "Response",
+        "source" : "50f0a3dcd2f896d7.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/e5b4f6f1-7628-4357-9acf-34eca1aac7f9/enabled",
+      "time" : {
+        "start" : 1613224470357,
+        "stop" : 1613224470366,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d9b5f3530f3f60ec",
+        "name" : "Response",
+        "source" : "d9b5f3530f3f60ec.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224470366,
+        "stop" : 1613224470374,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e2988dd9da0274",
+        "name" : "Request",
+        "source" : "3e2988dd9da0274.json",
+        "type" : "application/json",
+        "size" : 209
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aaf3454e8f6d3f.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

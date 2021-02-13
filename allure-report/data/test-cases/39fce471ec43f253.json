@@ -1,0 +1,152 @@
+{
+  "uid" : "39fce471ec43f253",
+  "name" : "Check the title and url of the Landing Page",
+  "fullName" : "Check the Total Price of the Product from the Cart.Check the title and url of the Landing Page",
+  "historyId" : "dd55b3d46d738a1d24beaf5e320f862",
+  "time" : {
+    "start" : 1613224451932,
+    "stop" : 1613224460191,
+    "duration" : 8259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1613224451933,
+        "stop" : 1613224460180,
+        "duration" : 8247
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1613224451938,
+          "stop" : 1613224460134,
+          "duration" : 8196
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1613224451944,
+            "stop" : 1613224452562,
+            "duration" : 618
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "69fb3ca861c66787",
+            "name" : "Response",
+            "source" : "69fb3ca861c66787.json",
+            "type" : "application/json",
+            "size" : 58
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "e69b78405a055429",
+          "name" : "Request",
+          "source" : "e69b78405a055429.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "cb5bb19d1c1cb793",
+        "name" : "Response",
+        "source" : "cb5bb19d1c1cb793.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1613224460180,
+        "stop" : 1613224460189,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7f8a433203f3475",
+        "name" : "Response",
+        "source" : "c7f8a433203f3475.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Check the Total Price of the Product from the Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Check the Total Price of the Product from the Cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the title and url of the Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Check the Total Price of the Product from the Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39fce471ec43f253.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

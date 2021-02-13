@@ -1,0 +1,152 @@
+{
+  "uid" : "a97ae0d7d0cd45d4",
+  "name" : "Check the title and url of the Landing Page",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the title and url of the Landing Page",
+  "historyId" : "d219b636137a5cce5f99002244dc25e1",
+  "time" : {
+    "start" : 1613224451851,
+    "stop" : 1613224459896,
+    "duration" : 8045
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1613224451852,
+        "stop" : 1613224459886,
+        "duration" : 8034
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1613224451858,
+          "stop" : 1613224459861,
+          "duration" : 8003
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1613224451864,
+            "stop" : 1613224452496,
+            "duration" : 632
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8c6e0b245e9544f2",
+            "name" : "Response",
+            "source" : "8c6e0b245e9544f2.json",
+            "type" : "application/json",
+            "size" : 58
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "15fff74115f2aa5e",
+          "name" : "Request",
+          "source" : "15fff74115f2aa5e.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "fde9c942b033e293",
+        "name" : "Response",
+        "source" : "fde9c942b033e293.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1613224459886,
+        "stop" : 1613224459893,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5d21ee16c959c66",
+        "name" : "Response",
+        "source" : "b5d21ee16c959c66.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the title and url of the Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a97ae0d7d0cd45d4.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

@@ -1,0 +1,212 @@
+{
+  "uid" : "86dedc5d80ecb75a",
+  "name" : "Check the product name: Blouse is visible",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the product name: Blouse is visible",
+  "historyId" : "f882dbcf2c85ac0436820c7d4b91abf0",
+  "time" : {
+    "start" : 1613224459998,
+    "stop" : 1613224460081,
+    "duration" : 83
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224460000,
+        "stop" : 1613224460014,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1cc595856928c5c",
+        "name" : "Request",
+        "source" : "1cc595856928c5c.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "1140fc762616e654",
+        "name" : "Response",
+        "source" : "1140fc762616e654.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224460016,
+        "stop" : 1613224460026,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93caa6e9805f61a2",
+        "name" : "Request",
+        "source" : "93caa6e9805f61a2.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "e06874d27c2f280f",
+        "name" : "Response",
+        "source" : "e06874d27c2f280f.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/849f9051-269c-1242-b007-ac2fcf5689b2/displayed",
+      "time" : {
+        "start" : 1613224460027,
+        "stop" : 1613224460041,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c21655e1d1551af7",
+        "name" : "Response",
+        "source" : "c21655e1d1551af7.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224460041,
+        "stop" : 1613224460052,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "158c394767b27af8",
+        "name" : "Request",
+        "source" : "158c394767b27af8.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "8fbff7391f59d6f4",
+        "name" : "Response",
+        "source" : "8fbff7391f59d6f4.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/849f9051-269c-1242-b007-ac2fcf5689b2/displayed",
+      "time" : {
+        "start" : 1613224460054,
+        "stop" : 1613224460068,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2ff0500c3b93dad",
+        "name" : "Response",
+        "source" : "a2ff0500c3b93dad.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/849f9051-269c-1242-b007-ac2fcf5689b2/displayed",
+      "time" : {
+        "start" : 1613224460068,
+        "stop" : 1613224460080,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "adb4488877a5fe52",
+        "name" : "Response",
+        "source" : "adb4488877a5fe52.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the product name: Blouse is visible"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86dedc5d80ecb75a.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

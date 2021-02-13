@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//input[@id='quantity_wanted']"
+}

@@ -1,0 +1,645 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Add to Cart",
+    "children" : [ {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "db6150c38dcfe2d",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224449073,
+        "stop" : 1613224460855,
+        "duration" : 11782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "70de62ae0bbbf248",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224451867,
+        "stop" : 1613224460187,
+        "duration" : 8320
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "click on 20% discunt listed Item",
+      "uid" : "e11ee546889fc343",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460187,
+        "stop" : 1613224460512,
+        "duration" : 325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check whether the Shopping Cart is enabled and click item to add to Cart",
+      "uid" : "6968d3ab80ce020a",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460513,
+        "stop" : 1613224464892,
+        "duration" : 4379
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "click on 20% discunt listed Item",
+      "uid" : "5169008a674e4e45",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460855,
+        "stop" : 1613224465184,
+        "duration" : 4329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Verify whether the product added to Cart message is displayed",
+      "uid" : "7af40ffa1bf341bc",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224464894,
+        "stop" : 1613224467047,
+        "duration" : 2153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check whether the Shopping Cart is enabled and click item to add to Cart",
+      "uid" : "b5a1a96b52e06a1e",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465184,
+        "stop" : 1613224465461,
+        "duration" : 277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Verify whether the product added to Cart message is displayed",
+      "uid" : "a621c703068a1bc6",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465461,
+        "stop" : 1613224467168,
+        "duration" : 1707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Verify the product count from the Cart",
+      "uid" : "c3d7d9a3425e2c75",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224467047,
+        "stop" : 1613224467178,
+        "duration" : 131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Verify the product count from the Cart",
+      "uid" : "d14ded9bee1d6455",
+      "parentUid" : "1d9304d165251b4230feaf4b07a85747",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224467168,
+        "stop" : 1613224467394,
+        "duration" : 226
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "1d9304d165251b4230feaf4b07a85747"
+  }, {
+    "name" : "Toggle between the colours of the Product",
+    "children" : [ {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "23905bec87df7ecc",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224449089,
+        "stop" : 1613224464426,
+        "duration" : 15337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "74ba8d17c31fd0f9",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224451918,
+        "stop" : 1613224460055,
+        "duration" : 8137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "click on the 5th Product with 5% discount in the list",
+      "uid" : "7381afe2d0a2e685",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460055,
+        "stop" : 1613224460478,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check when selecting black colour the image is updated",
+      "uid" : "d281b2d25673da8f",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460479,
+        "stop" : 1613224465344,
+        "duration" : 4865
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "click on the 5th Product with 5% discount in the list",
+      "uid" : "6816dbe553eebb4f",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224464426,
+        "stop" : 1613224467644,
+        "duration" : 3218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check when selecting orange colour the image is updated",
+      "uid" : "d5183e4fea23d2ed",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465344,
+        "stop" : 1613224466021,
+        "duration" : 677
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check when selecting blue colour the image is updated",
+      "uid" : "a4f1c1da15011355",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224466022,
+        "stop" : 1613224466666,
+        "duration" : 644
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check when selecting yellow colour the image is updated",
+      "uid" : "71133f15e3d6fcf3",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224466666,
+        "stop" : 1613224467324,
+        "duration" : 658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Navigate to Landing Page",
+      "uid" : "346981ddf4b3eadb",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224467324,
+        "stop" : 1613224467369,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check when selecting black colour the image is updated",
+      "uid" : "6b697169b7b76d69",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224467644,
+        "stop" : 1613224468341,
+        "duration" : 697
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check when selecting orange colour the image is updated",
+      "uid" : "3934d35122360785",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224468341,
+        "stop" : 1613224469015,
+        "duration" : 674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check when selecting blue colour the image is updated",
+      "uid" : "d792d17970a4a2d9",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224469015,
+        "stop" : 1613224469679,
+        "duration" : 664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check when selecting yellow colour the image is updated",
+      "uid" : "7d5bed5a55f6f83c",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224469679,
+        "stop" : 1613224470329,
+        "duration" : 650
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Navigate to Landing Page",
+      "uid" : "3aaf3454e8f6d3f",
+      "parentUid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224470329,
+        "stop" : 1613224470374,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "ae0ad5c205c57dd8306c68c41fc1fda5"
+  }, {
+    "name" : "Check Product Names Visible and Print it to Test Report",
+    "children" : [ {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "dfbf7c560339d4c",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224449126,
+        "stop" : 1613224464648,
+        "duration" : 15522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "a97ae0d7d0cd45d4",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224451851,
+        "stop" : 1613224459896,
+        "duration" : 8045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Faded Short Sleeve T-shirts is visible",
+      "uid" : "a1e203a8c78833ce",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224459897,
+        "stop" : 1613224459997,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Blouse is visible",
+      "uid" : "86dedc5d80ecb75a",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224459998,
+        "stop" : 1613224460081,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Printed Dress is visible",
+      "uid" : "a744e2382f0f250d",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460081,
+        "stop" : 1613224460309,
+        "duration" : 228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Printed Dress Two is visible",
+      "uid" : "37df38cc31b20a9f",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460309,
+        "stop" : 1613224460503,
+        "duration" : 194
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Printed Summer Dress is visible",
+      "uid" : "d6cf07e3acc64c3a",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460504,
+        "stop" : 1613224460608,
+        "duration" : 104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Printed Summer Dress Two is visible",
+      "uid" : "2a5d33346934bf7c",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460608,
+        "stop" : 1613224460674,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Printed Chiffon Dress is visible",
+      "uid" : "e3091c87bee9dd51",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460675,
+        "stop" : 1613224460744,
+        "duration" : 69
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check the product name: Faded Short Sleeve T-shirts is visible",
+      "uid" : "ad3a42927f35af09",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224464649,
+        "stop" : 1613224464918,
+        "duration" : 269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the product name: Blouse is visible",
+      "uid" : "64dce47ccf641cbe",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224464918,
+        "stop" : 1613224465047,
+        "duration" : 129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the product name: Printed Dress is visible",
+      "uid" : "df93191e521fbbd9",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465048,
+        "stop" : 1613224465140,
+        "duration" : 92
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the product name: Printed Dress Two is visible",
+      "uid" : "6bf8ac1f188b197c",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465140,
+        "stop" : 1613224465243,
+        "duration" : 103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the product name: Printed Summer Dress is visible",
+      "uid" : "744f910aa5c23d10",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465243,
+        "stop" : 1613224465376,
+        "duration" : 133
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the product name: Printed Summer Dress Two is visible",
+      "uid" : "defa601da2dbccc1",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465376,
+        "stop" : 1613224465471,
+        "duration" : 95
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the product name: Printed Chiffon Dress is visible",
+      "uid" : "a82650f91668c2bd",
+      "parentUid" : "5b6f7cf8cf621680773418a3083ec99c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465471,
+        "stop" : 1613224465544,
+        "duration" : 73
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "5b6f7cf8cf621680773418a3083ec99c"
+  }, {
+    "name" : "Check the Total Price of the Product from the Cart",
+    "children" : [ {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "799f5aeaf8db4793",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224449132,
+        "stop" : 1613224463287,
+        "duration" : 14155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check the title and url of the Landing Page",
+      "uid" : "39fce471ec43f253",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224451932,
+        "stop" : 1613224460191,
+        "duration" : 8259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "click on the 5th Product with 5% discunt in the list",
+      "uid" : "7480ed22fc9983d0",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460191,
+        "stop" : 1613224460493,
+        "duration" : 302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Add quantity as 5 for the product",
+      "uid" : "b78d114024d812d4",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224460493,
+        "stop" : 1613224467095,
+        "duration" : 6602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "click on the 5th Product with 5% discunt in the list",
+      "uid" : "477b49557a97ea8e",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224463287,
+        "stop" : 1613224465888,
+        "duration" : 2601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Add quantity as 5 for the product",
+      "uid" : "32f3eb38f39b7aff",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224465889,
+        "stop" : 1613224467414,
+        "duration" : 1525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    }, {
+      "name" : "Check whether the Total price is accurate from the Cart",
+      "uid" : "222a3893ef55b5ca",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224467096,
+        "stop" : 1613224468724,
+        "duration" : 1628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-84.0.2" ]
+    }, {
+      "name" : "Check whether the Total price is accurate from the Cart",
+      "uid" : "8a6b4ac8306d86f3",
+      "parentUid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613224467415,
+        "stop" : 1613224469042,
+        "duration" : 1627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-88.0.4324.150" ]
+    } ],
+    "uid" : "cfd0b177c3e37ed7a0a098f11828f60f"
+  } ]
+}

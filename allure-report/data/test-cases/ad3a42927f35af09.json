@@ -1,0 +1,230 @@
+{
+  "uid" : "ad3a42927f35af09",
+  "name" : "Check the product name: Faded Short Sleeve T-shirts is visible",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the product name: Faded Short Sleeve T-shirts is visible",
+  "historyId" : "651cfdedb9fb0d9ae9bc27e4dec398a9",
+  "time" : {
+    "start" : 1613224464649,
+    "stop" : 1613224464918,
+    "duration" : 269
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224464650,
+        "stop" : 1613224464721,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c0158219556f81d",
+        "name" : "Request",
+        "source" : "1c0158219556f81d.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "c6931a5c7db0b45b",
+        "name" : "Response",
+        "source" : "c6931a5c7db0b45b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224464730,
+        "stop" : 1613224464784,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67522ccbd5a27a99",
+        "name" : "Request",
+        "source" : "67522ccbd5a27a99.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "7dc669b47cd8eabd",
+        "name" : "Response",
+        "source" : "7dc669b47cd8eabd.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224464793,
+        "stop" : 1613224464857,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e42d684d4f79dddf",
+        "name" : "Request",
+        "source" : "e42d684d4f79dddf.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "8dc31b47fb3c43b7",
+        "name" : "Response",
+        "source" : "8dc31b47fb3c43b7.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224464858,
+        "stop" : 1613224464883,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6e804803bc2e36e",
+        "name" : "Request",
+        "source" : "a6e804803bc2e36e.json",
+        "type" : "application/json",
+        "size" : 93
+      }, {
+        "uid" : "9db2dfb0bb93b639",
+        "name" : "Response",
+        "source" : "9db2dfb0bb93b639.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224464891,
+        "stop" : 1613224464906,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "13e348a3df1127fe",
+        "name" : "Request",
+        "source" : "13e348a3df1127fe.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "33c23e2ff7918854",
+        "name" : "Response",
+        "source" : "33c23e2ff7918854.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224464907,
+        "stop" : 1613224464917,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b9ee784074615ba1",
+        "name" : "Request",
+        "source" : "b9ee784074615ba1.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "18fba4445d399941",
+        "name" : "Response",
+        "source" : "18fba4445d399941.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the product name: Faded Short Sleeve T-shirts is visible"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad3a42927f35af09.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

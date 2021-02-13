@@ -1,0 +1,152 @@
+{
+  "uid" : "70de62ae0bbbf248",
+  "name" : "Check the title and url of the Landing Page",
+  "fullName" : "Add to Cart.Check the title and url of the Landing Page",
+  "historyId" : "313e0e1fd95a6d8352643901718b0758",
+  "time" : {
+    "start" : 1613224451867,
+    "stop" : 1613224460187,
+    "duration" : 8320
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1613224451868,
+        "stop" : 1613224460174,
+        "duration" : 8306
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1613224451873,
+          "stop" : 1613224460144,
+          "duration" : 8271
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1613224451879,
+            "stop" : 1613224452511,
+            "duration" : 632
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "dccbc1a9c40496d9",
+            "name" : "Response",
+            "source" : "dccbc1a9c40496d9.json",
+            "type" : "application/json",
+            "size" : 58
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "7b4705ec83d3a4dd",
+          "name" : "Request",
+          "source" : "7b4705ec83d3a4dd.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "36697d255ba4fd61",
+        "name" : "Response",
+        "source" : "36697d255ba4fd61.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1613224460175,
+        "stop" : 1613224460185,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d49e0e72b84c76b7",
+        "name" : "Response",
+        "source" : "d49e0e72b84c76b7.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Add to Cart"
+  }, {
+    "name" : "testClass",
+    "value" : "Add to Cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the title and url of the Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Add to Cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-84.0.2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70de62ae0bbbf248.json",
+  "parameterValues" : [ "firefox-84.0.2" ]
+}

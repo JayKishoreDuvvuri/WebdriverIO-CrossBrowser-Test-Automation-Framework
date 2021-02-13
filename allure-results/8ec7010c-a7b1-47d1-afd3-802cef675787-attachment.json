@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.layer_cart_product.col-xs-12.col-md-6 > h2"
+}

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "Unable to locate element: //li[@class='selected']",
+  "stacktrace": "WebDriverError@chrome://marionette/content/error.js:181:5\nNoSuchElementError@chrome://marionette/content/error.js:393:5\nelement.find/</<@chrome://marionette/content/element.js:467:16\n"
+}

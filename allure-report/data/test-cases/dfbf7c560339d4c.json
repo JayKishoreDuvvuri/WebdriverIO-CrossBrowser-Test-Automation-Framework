@@ -1,0 +1,152 @@
+{
+  "uid" : "dfbf7c560339d4c",
+  "name" : "Check the title and url of the Landing Page",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the title and url of the Landing Page",
+  "historyId" : "ce09c8059b659b835272493e381cc861",
+  "time" : {
+    "start" : 1613224449126,
+    "stop" : 1613224464648,
+    "duration" : 15522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1613224449127,
+        "stop" : 1613224464603,
+        "duration" : 15476
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1613224449132,
+          "stop" : 1613224464543,
+          "duration" : 15411
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1613224449140,
+            "stop" : 1613224449344,
+            "duration" : 204
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "429cc231a85481ab",
+            "name" : "Response",
+            "source" : "429cc231a85481ab.json",
+            "type" : "application/json",
+            "size" : 58
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "348de552d801330b",
+          "name" : "Request",
+          "source" : "348de552d801330b.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a5b21ca9f20704ec",
+        "name" : "Response",
+        "source" : "a5b21ca9f20704ec.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1613224464603,
+        "stop" : 1613224464646,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b5d9eb27a969b6d1",
+        "name" : "Response",
+        "source" : "b5d9eb27a969b6d1.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the title and url of the Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfbf7c560339d4c.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

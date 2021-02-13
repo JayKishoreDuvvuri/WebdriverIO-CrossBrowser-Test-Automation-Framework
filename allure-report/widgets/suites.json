@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "5b6f7cf8cf621680773418a3083ec99c",
+    "name" : "Check Product Names Visible and Print it to Test Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "ae0ad5c205c57dd8306c68c41fc1fda5",
+    "name" : "Toggle between the colours of the Product",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 14
+    }
+  }, {
+    "uid" : "1d9304d165251b4230feaf4b07a85747",
+    "name" : "Add to Cart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "cfd0b177c3e37ed7a0a098f11828f60f",
+    "name" : "Check the Total Price of the Product from the Cart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

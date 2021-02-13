@@ -1,0 +1,152 @@
+{
+  "uid" : "23905bec87df7ecc",
+  "name" : "Check the title and url of the Landing Page",
+  "fullName" : "Toggle between the colours of the Product.Check the title and url of the Landing Page",
+  "historyId" : "674bde0eed32c1ff276dac99129aaa46",
+  "time" : {
+    "start" : 1613224449089,
+    "stop" : 1613224464426,
+    "duration" : 15337
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1613224449092,
+        "stop" : 1613224464414,
+        "duration" : 15322
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1613224449103,
+          "stop" : 1613224464400,
+          "duration" : 15297
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/url",
+          "time" : {
+            "start" : 1613224449162,
+            "stop" : 1613224449333,
+            "duration" : 171
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8373d2f565bc1951",
+            "name" : "Response",
+            "source" : "8373d2f565bc1951.json",
+            "type" : "application/json",
+            "size" : 58
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "8ad8a82007cdf781",
+          "name" : "Request",
+          "source" : "8ad8a82007cdf781.json",
+          "type" : "application/json",
+          "size" : 54
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "97ee8b2a5b870af",
+        "name" : "Response",
+        "source" : "97ee8b2a5b870af.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1613224464415,
+        "stop" : 1613224464424,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b685ca6ad78530d",
+        "name" : "Response",
+        "source" : "7b685ca6ad78530d.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "testClass",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the title and url of the Landing Page"
+  }, {
+    "name" : "package",
+    "value" : "Toggle between the colours of the Product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23905bec87df7ecc.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

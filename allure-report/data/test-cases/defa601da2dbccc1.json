@@ -1,0 +1,230 @@
+{
+  "uid" : "defa601da2dbccc1",
+  "name" : "Check the product name: Printed Summer Dress Two is visible",
+  "fullName" : "Check Product Names Visible and Print it to Test Report.Check the product name: Printed Summer Dress Two is visible",
+  "historyId" : "52baa969d5f7ce028f6a10e6aebb2693",
+  "time" : {
+    "start" : 1613224465376,
+    "stop" : 1613224465471,
+    "duration" : 95
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1613224465377,
+        "stop" : 1613224465400,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3f75d6dbfe004e62",
+        "name" : "Request",
+        "source" : "3f75d6dbfe004e62.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "2b7d51418f76812c",
+        "name" : "Response",
+        "source" : "2b7d51418f76812c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224465402,
+        "stop" : 1613224465421,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8d156fe00f7e1646",
+        "name" : "Request",
+        "source" : "8d156fe00f7e1646.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "c9db5b9e2e922d78",
+        "name" : "Response",
+        "source" : "c9db5b9e2e922d78.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224465425,
+        "stop" : 1613224465439,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "799b76832b420f71",
+        "name" : "Request",
+        "source" : "799b76832b420f71.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "a1f1fbddca5c9af5",
+        "name" : "Response",
+        "source" : "a1f1fbddca5c9af5.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1613224465440,
+        "stop" : 1613224465452,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54f9a84684d93c66",
+        "name" : "Request",
+        "source" : "54f9a84684d93c66.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "1bcf8a037b676fac",
+        "name" : "Response",
+        "source" : "1bcf8a037b676fac.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224465454,
+        "stop" : 1613224465463,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "270959777dc71e3d",
+        "name" : "Request",
+        "source" : "270959777dc71e3d.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "311432b2bd5ee52e",
+        "name" : "Response",
+        "source" : "311432b2bd5ee52e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1613224465463,
+        "stop" : 1613224465471,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c9737e6467264be4",
+        "name" : "Request",
+        "source" : "c9737e6467264be4.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "dd6126e9608a022e",
+        "name" : "Response",
+        "source" : "dd6126e9608a022e.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 12,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testClass",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check the product name: Printed Summer Dress Two is visible"
+  }, {
+    "name" : "package",
+    "value" : "Check Product Names Visible and Print it to Test Report"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-88.0.4324.150"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "defa601da2dbccc1.json",
+  "parameterValues" : [ "chrome-88.0.4324.150" ]
+}

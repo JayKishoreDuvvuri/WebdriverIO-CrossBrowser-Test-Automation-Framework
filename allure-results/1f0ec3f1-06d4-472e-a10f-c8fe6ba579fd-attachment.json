@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//td[@id='total_product']"
+}
