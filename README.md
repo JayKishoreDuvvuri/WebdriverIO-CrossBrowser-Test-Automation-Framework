@@ -78,7 +78,7 @@ Folder Structure
     │
     └─── errorShots                         # Screenshot captured for failed tests
 
-Generate Allure Test Report
+Generate Allure Test Report 
 
 Run on Terminal
 ```bash
